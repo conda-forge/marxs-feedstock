@@ -23,7 +23,7 @@ requirements:
     - astropy
     - transforms3d
   run:
-    - python
+    - python >=3.5
     - astropy
     - transforms3d
     - scipy
@@ -43,7 +43,7 @@ test:
 
 about:
   home: https://github.com/Chandra-MARX/marxs
-  license: GPLv3+
+  license: GPL-3.0-or-later
   license_family: GPL3
   license_file: licenses/LICENSE.rst
   summary: Multi Architecture Raytracer for X-ray satellites
