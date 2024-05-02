@@ -1,5 +1,5 @@
 {% set name = "marxs" %}
-{% set version = "1.2" %}
+{% set version = "2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bb9fb2ed73f8e0fc32c6b8ee76888cbcdd6fdfec66347d04c104d6f8dca9debf
+  sha256: 4082f768568855c5110f4ab47dace4247feacee170ef07452f5161148861c6e4
   patches:
     - setup.cfg.patch
 
