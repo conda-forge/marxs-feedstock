@@ -12,7 +12,7 @@ source:
     - setup.cfg.patch
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: '{{ PYTHON }} -m pip install . -vv '
 
@@ -20,11 +20,11 @@ requirements:
   host:
     - pip
     - python
-    - astropy
+    - astropy-base
     - transforms3d
   run:
     - python >=3.5
-    - astropy
+    - astropy-base
     - transforms3d
     - scipy
 
